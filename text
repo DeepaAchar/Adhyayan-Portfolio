@@ -1,0 +1,10 @@
+draw(){
+    setCollide(sprite);
+}
+
+function setCollide(sprite){
+    sprite.collide(wall1);
+
+
+    sprite.collide(wall21);
+}

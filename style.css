@@ -1,0 +1,29 @@
+h1 {
+    color: brown;
+}
+
+.header{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+ .menu{
+     display: flex;
+     flex-direction: column;
+     justify-content: first baseline;
+ }
+
+ .grid{
+     display: list-item;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+
+ .footer{
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ p, h2{
+     text-align: center;
+ }
